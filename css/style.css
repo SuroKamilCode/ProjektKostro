@@ -8,6 +8,7 @@
 body {
   font-family: 'roboto', sans-serif;
   max-width: 1920px;
+  margin: 0 auto;
 }
 
 header {
@@ -97,4 +98,23 @@ header .description {
   font-size: 13px;
   padding: 15px 35px;
   text-align: center;
+}
+
+@media (min-width: 411px) {
+  .about h1 {
+    font-size: 17px;
+  }
+  .about p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about h1 {
+    font-size: 30px;
+  }
+  .about p {
+    font-size: 25px;
+    padding: 45px;
+  }
 }

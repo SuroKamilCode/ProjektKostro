@@ -86,12 +86,15 @@ header .description {
 .about h1 {
   text-transform: uppercase;
   font-weight: 700;
-  background-color: black;
-  opacity: .5;
+  background-color: #5672F5;
   padding: 15px;
   font-size: 15px;
   text-align: center;
-  color: #dddddde5;
+  color: white;
+}
+
+.about span {
+  font-weight: 700;
 }
 
 .about p {

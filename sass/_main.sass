@@ -15,9 +15,22 @@ main
     .characterisation
         max-width: 768px
         padding: 0 30px
-        font-size: 10px
         margin: 0 auto
         h2
-            padding: 20px 0
+            padding: 20px 15px
             text-align: center
             text-transform: uppercase
+            font-size: 12px
+
+    @media (min-width:768px)
+        .offer
+            font-size: 30px
+        .characterisation h2
+            font-size: 25px
+            padding: 20px 45px
+
+    @media (min-width:1024px)
+        .offer
+            font-size: 35px
+        .characterisation h2
+            font-size: 30px

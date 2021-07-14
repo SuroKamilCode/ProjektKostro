@@ -9,7 +9,7 @@ header
     background-position-x: center
     .logo
         position: absolute
-        top: 30%
+        top: 33%
         left: 50%
         transform: translate(-50%,-50%)
         height: 40vh
@@ -28,3 +28,24 @@ header
         opacity: .8
         line-height: 10vh
         font-size: 20px
+        font-weight: 700
+
+    @media (min-width:768px)
+        .logo
+            height: 45vh
+        .description
+            font-size: 35px
+
+    @media (min-width:1024px)
+        .logo
+            height: 50vh
+        .description
+            font-size: 55px
+
+    @media (min-width:1440px)
+        .logo
+            height: 55vh
+        .description
+            font-size: 58px
+            height: 12vh
+            line-height: 12vh

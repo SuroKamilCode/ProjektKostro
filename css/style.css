@@ -6,5 +6,42 @@
 }
 
 body {
-  font-family: arial, sans-serif;
+  font-family: 'roboto', sans-serif;
+  max-width: 1920px;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/zboze.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+header .logo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 40vh;
+  opacity: .8;
+}
+
+header .description {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  background-color: #ddd;
+  color: black;
+  text-transform: uppercase;
+  opacity: .8;
+  line-height: 10vh;
+  font-size: 20px;
 }

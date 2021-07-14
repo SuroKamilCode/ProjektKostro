@@ -128,8 +128,8 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: .7;
   margin: 0 auto;
+  color: white;
 }
 
 main .offer {
@@ -138,46 +138,17 @@ main .offer {
   text-align: center;
   text-transform: uppercase;
   padding: 30px 0;
-  background-color: #ddd;
-  color: black;
-  opacity: .8;
 }
 
-main .offers {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 120vh;
+main .characterisation {
+  max-width: 768px;
+  padding: 0 30px;
+  font-size: 10px;
+  margin: 0 auto;
 }
 
-main .offers .profile {
-  position: relative;
-  -ms-flex-preferred-size: 20%;
-      flex-basis: 20%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+main .characterisation h2 {
+  padding: 20px 0;
   text-align: center;
-  padding: 15px 0 30px;
   text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-main .offers .profile p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 10px 25px;
-  opacity: 1;
-  color: black;
-  background-color: #ddd;
-  opacity: .8;
 }

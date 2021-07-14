@@ -19,6 +19,7 @@ header {
   background-attachment: fixed;
   background-position-y: center;
   background-position-x: center;
+  margin-bottom: 40px;
 }
 
 header .logo {
@@ -43,8 +44,8 @@ header .description {
   text-transform: uppercase;
   opacity: .8;
   line-height: 10vh;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -52,7 +53,7 @@ header .description {
     height: 40vh;
   }
   header .description {
-    font-size: 35px;
+    font-size: 33px;
   }
 }
 
@@ -61,7 +62,7 @@ header .description {
     height: 45vh;
   }
   header .description {
-    font-size: 55px;
+    font-size: 53px;
   }
 }
 
@@ -70,8 +71,30 @@ header .description {
     height: 50vh;
   }
   header .description {
-    font-size: 58px;
+    font-size: 56px;
     height: 12vh;
     line-height: 12vh;
   }
+}
+
+.about {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: black;
+  opacity: .5;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  color: #dddddde5;
+}
+
+.about p {
+  font-size: 13px;
+  padding: 15px 35px;
+  text-align: center;
 }

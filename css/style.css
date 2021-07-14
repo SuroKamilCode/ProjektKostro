@@ -49,7 +49,7 @@ header .description {
 
 @media (min-width: 768px) {
   header .logo {
-    height: 45vh;
+    height: 40vh;
   }
   header .description {
     font-size: 35px;
@@ -58,7 +58,7 @@ header .description {
 
 @media (min-width: 1024px) {
   header .logo {
-    height: 50vh;
+    height: 45vh;
   }
   header .description {
     font-size: 55px;
@@ -67,7 +67,7 @@ header .description {
 
 @media (min-width: 1440px) {
   header .logo {
-    height: 55vh;
+    height: 50vh;
   }
   header .description {
     font-size: 58px;

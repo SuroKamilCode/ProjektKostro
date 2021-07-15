@@ -1,0 +1,95 @@
+.contact
+    position: relative
+    height: 80vh
+    background-color: #000
+    background-image: url(../img/drewno5.jpg)
+    background-size: cover
+    background-position: center
+    margin-top: 20px
+    font-family: 'roboto', sans-serif, arial
+    font-weight: 700
+
+    .container
+        position: absolute
+        top: 20%
+        left: 50%
+        transform: translate(-50%,-50%)
+        color: white
+        width: 100%
+        text-align: center
+        .invite
+            padding-bottom: 20px
+            font-size: 18px
+        .content
+            font-size: 12px
+            padding-bottom: 5px
+
+.mapper
+    position: absolute
+    top: 65%
+    left: 50%
+    transform: translate(-50%,-50%)
+    height: 45%
+
+@media (min-width:411px)
+    .contact .container
+        top: 25%
+
+    .contact .container .invite
+        font-size: 22px
+    .contact .container .content
+        font-size: 18px
+    .mapper
+        top: 70%
+
+@media (min-width:768px)
+
+    .contact .container .invite
+        font-size: 30px
+    .contact .container .content
+        font-size: 26px
+    .mapper
+        width: 80%
+        height: 40%
+
+@media (min-width:1024px)
+
+    .contact .container .invite
+        font-size: 40px
+    .contact .container .content
+        font-size: 35px
+
+@media (orientation: landscape)
+    .contact .container
+        top: 50%
+        left: 25%
+    .contact .container .invite
+        font-size: 18px
+    .contact .container .content
+        font-size: 12px
+    .mapper
+        top: 50%
+        left: 70%
+        width: 40%
+        height: 60%
+
+@media (orientation: landscape) and (min-width:731px)
+    .contact .container .invite
+        font-size: 22px
+    .contact .container .content
+        font-size: 16px
+
+@media (orientation: landscape) and (min-width:1024px)
+    .contact .container
+        top: 50%
+        left: 25%
+    .contact .container .invite
+        font-size: 25px
+    .contact .container .content
+        font-size: 22px
+
+@media (orientation: landscape) and (min-width:1366px)
+    .contact .container .invite
+        font-size: 35px
+    .contact .container .content
+        font-size: 30px

@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'oswald', sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/zboze.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin-bottom: 40px;
+}
+
+header .logo {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 40vh;
+  opacity: .8;
+}
+
+header .description {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  background-color: #ddd;
+  color: black;
+  text-transform: uppercase;
+  opacity: .8;
+  line-height: 10vh;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  header .logo {
+    height: 40vh;
+  }
+
+  header .description {
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header .logo {
+    height: 45vh;
+  }
+
+  header .description {
+    font-size: 53px;
+  }
+}
+
+@media (min-width: 1440px) {
+  header .logo {
+    height: 50vh;
+  }
+
+  header .description {
+    font-size: 56px;
+    height: 12vh;
+    line-height: 12vh;
+  }
+}
+
+.about {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.about h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #93afc9;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.about span {
+  font-weight: 700;
+}
+
+.about p {
+  font-size: 13px;
+  padding: 15px 35px;
+  text-align: center;
+}
+
+@media (min-width: 411px) {
+  .about h1 {
+    font-size: 17px;
+  }
+
+  .about p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 25px;
+    padding: 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about h1 {
+    font-size: 35px;
+  }
+
+  .about p {
+    font-size: 30px;
+    padding: 45px;
+  }
+}
+
+main {
+  background-image: url(../img/bele.jpg);
+  opacity: .8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  color: white;
+}
+
+main .offer {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+
+main .characterisation {
+  max-width: 768px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+main .characterisation h2 {
+  padding: 20px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  main .offer {
+    font-size: 30px;
+  }
+
+  main .characterisation h2 {
+    font-size: 25px;
+    padding: 20px 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .offer {
+    font-size: 35px;
+  }
+
+  main .characterisation h2 {
+    font-size: 30px;
+  }
+}
+
+.contact {
+  position: relative;
+  height: 80vh;
+  background-color: #000;
+  background-image: url(../img/drewno5.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  font-family: 'roboto', sans-serif, arial;
+  font-weight: 700;
+}
+
+.contact .container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.contact .container .invite {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.contact .container .content {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.mapper {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 45%;
+}
+
+@media (min-width: 411px) {
+  .contact .container {
+    top: 25%;
+  }
+
+  .contact .container .invite {
+    font-size: 22px;
+  }
+
+  .contact .container .content {
+    font-size: 18px;
+  }
+
+  .mapper {
+    top: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact .container .invite {
+    font-size: 30px;
+  }
+
+  .contact .container .content {
+    font-size: 26px;
+  }
+
+  .mapper {
+    width: 80%;
+    height: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact .container .invite {
+    font-size: 40px;
+  }
+
+  .contact .container .content {
+    font-size: 35px;
+  }
+}
+
+@media (orientation: landscape) {
+  .contact .container {
+    top: 50%;
+    left: 25%;
+  }
+
+  .contact .container .invite {
+    font-size: 18px;
+  }
+
+  .contact .container .content {
+    font-size: 12px;
+  }
+
+  .mapper {
+    top: 50%;
+    left: 70%;
+    width: 40%;
+    height: 60%;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 731px) {
+  .contact .container .invite {
+    font-size: 22px;
+  }
+
+  .contact .container .content {
+    font-size: 16px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  .contact .container {
+    top: 50%;
+    left: 25%;
+  }
+
+  .contact .container .invite {
+    font-size: 25px;
+  }
+
+  .contact .container .content {
+    font-size: 22px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1366px) {
+  .contact .container .invite {
+    font-size: 35px;
+  }
+
+  .contact .container .content {
+    font-size: 30px;
+  }
+}
+
+footer {
+  height: 5vh;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  line-height: 5vh;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+  text-decoration-style: none;
+  color: red;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+footer a:hover {
+  color: brown;
+}
+
+@media (min-width: 320px) {
+  footer {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 411px) {
+  footer {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  footer {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1366px) {
+  footer {
+    font-size: 18px;
+  }
+}

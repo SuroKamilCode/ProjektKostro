@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -18,8 +18,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position-y: center;
-  background-position-x: center;
+  background-position: center center;
   margin-bottom: 40px;
 }
 
@@ -28,7 +27,7 @@ header .logo {
   top: 33%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   height: 40vh;
   opacity: .8;
 }
@@ -53,6 +52,7 @@ header .description {
   header .logo {
     height: 40vh;
   }
+
   header .description {
     font-size: 33px;
   }
@@ -62,6 +62,7 @@ header .description {
   header .logo {
     height: 45vh;
   }
+
   header .description {
     font-size: 53px;
   }
@@ -71,6 +72,7 @@ header .description {
   header .logo {
     height: 50vh;
   }
+
   header .description {
     font-size: 56px;
     height: 12vh;
@@ -108,6 +110,7 @@ header .description {
   .about h1 {
     font-size: 17px;
   }
+
   .about p {
     font-size: 15px;
   }
@@ -117,6 +120,7 @@ header .description {
   .about h1 {
     font-size: 30px;
   }
+
   .about p {
     font-size: 25px;
     padding: 45px;
@@ -127,6 +131,7 @@ header .description {
   .about h1 {
     font-size: 35px;
   }
+
   .about p {
     font-size: 30px;
     padding: 45px;
@@ -168,6 +173,7 @@ main .characterisation h2 {
   main .offer {
     font-size: 30px;
   }
+
   main .characterisation h2 {
     font-size: 25px;
     padding: 20px 45px;
@@ -178,6 +184,7 @@ main .characterisation h2 {
   main .offer {
     font-size: 35px;
   }
+
   main .characterisation h2 {
     font-size: 30px;
   }
@@ -200,7 +207,7 @@ main .characterisation h2 {
   top: 20%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
   width: 100%;
   text-align: center;
@@ -221,7 +228,7 @@ main .characterisation h2 {
   top: 65%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   height: 45%;
 }
 
@@ -229,12 +236,15 @@ main .characterisation h2 {
   .contact .container {
     top: 25%;
   }
+
   .contact .container .invite {
     font-size: 22px;
   }
+
   .contact .container .content {
     font-size: 18px;
   }
+
   .mapper {
     top: 70%;
   }
@@ -244,9 +254,11 @@ main .characterisation h2 {
   .contact .container .invite {
     font-size: 30px;
   }
+
   .contact .container .content {
     font-size: 26px;
   }
+
   .mapper {
     width: 80%;
     height: 40%;
@@ -257,6 +269,7 @@ main .characterisation h2 {
   .contact .container .invite {
     font-size: 40px;
   }
+
   .contact .container .content {
     font-size: 35px;
   }
@@ -267,12 +280,15 @@ main .characterisation h2 {
     top: 50%;
     left: 25%;
   }
+
   .contact .container .invite {
     font-size: 18px;
   }
+
   .contact .container .content {
     font-size: 12px;
   }
+
   .mapper {
     top: 50%;
     left: 70%;
@@ -285,6 +301,7 @@ main .characterisation h2 {
   .contact .container .invite {
     font-size: 22px;
   }
+
   .contact .container .content {
     font-size: 16px;
   }
@@ -295,9 +312,11 @@ main .characterisation h2 {
     top: 50%;
     left: 25%;
   }
+
   .contact .container .invite {
     font-size: 25px;
   }
+
   .contact .container .content {
     font-size: 22px;
   }
@@ -307,6 +326,7 @@ main .characterisation h2 {
   .contact .container .invite {
     font-size: 35px;
   }
+
   .contact .container .content {
     font-size: 30px;
   }
@@ -324,7 +344,7 @@ footer {
 footer a {
   text-decoration: none;
   -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration-style: none;
   color: red;
   -webkit-transition: .3s;
   transition: .3s;
